@@ -1,0 +1,24 @@
+# FastAPI 框架
+fastapi==0.104.1
+uvicorn==0.23.2
+
+# 数据库
+sqlalchemy==2.0.23
+alembic==1.12.1
+pymysql==1.1.0
+cryptography==41.0.5
+
+# 向量数据库
+faiss-cpu==1.7.4     # 或 pinecone-client, 或 milvus-client
+pgvector==0.2.0      # PostgreSQL向量扩展的Python客户端
+
+# PDF处理
+# mineru==0.1.0        # 假设MinerU是一个PyPI包
+# pdfminer.six==20221105
+# pymupdf==1.23.0
+
+# AI 和嵌入
+# transformers==4.35.0
+# sentence-transformers==2.2.2
+# openai==1.2.4        # 如果使用OpenAI的API
+# langchain==0.0.335   # 框架集成
